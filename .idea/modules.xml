@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/encryption_keys.iml" filepath="$PROJECT_DIR$/encryption_keys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cryptography_keys.iml" filepath="$PROJECT_DIR$/cryptography_keys.iml" />
     </modules>
   </component>
 </project>
