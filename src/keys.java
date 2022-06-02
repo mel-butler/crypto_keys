@@ -58,7 +58,7 @@ public class keys {
     }
 
     // returns the modulus of the arithmetic that will be used for the key, which
-    // is given by their product
+    // is given by their product.
     public static int modulus(int a, int b){
         return a*b;
     }
