@@ -25,7 +25,7 @@ public class keys {
         // aka when they share no common factors other than one.
         public_encrypt_ex = generateCoPrime(f);
 
-        System.out.println("public key: ");
+        System.out.println("public key. say Alice's: ");
         System.out.println("encryption exponent = " + public_encrypt_ex);
         System.out.println("modulus = " + m);
 
