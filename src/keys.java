@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class keys {
     static int p, q, m;
-    static int public_encrypt_ex;
 
     //Generate a public key
     public static void main(String[] args) {
