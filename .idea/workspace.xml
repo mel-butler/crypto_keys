@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afe28b02-78bd-43a0-ade5-715fe7117462" name="Changes" comment="decryption key started">
+    <list default="true" id="afe28b02-78bd-43a0-ade5-715fe7117462" name="Changes" comment="removed function method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/keys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keys.java" afterDir="false" />
     </list>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654265307238</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed function method">
+      <created>1654604456332</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654604456332</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +109,7 @@
     <MESSAGE value="created key class" />
     <MESSAGE value="encryption key created" />
     <MESSAGE value="decryption key started" />
-    <option name="LAST_COMMIT_MESSAGE" value="decryption key started" />
+    <MESSAGE value="removed function method" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed function method" />
   </component>
 </project>

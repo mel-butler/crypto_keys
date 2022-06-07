@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 public class keys {
-    static int p, q, m, f;
+    static int p, q, m;
     static int public_encrypt_ex;
 
     //Generate a public key
@@ -19,8 +19,7 @@ public class keys {
         m = modulus(p, q);
 
 
-        System.out.println("public key. say Alice's: ");
-        System.out.println("encryption exponent = " + public_encrypt_ex);
+        System.out.println("two chosen values: " + p + ", " + q );
         System.out.println("modulus = " + m);
 
     }
@@ -88,9 +87,5 @@ public class keys {
         return coPrimes.get(rand);
     }
 
-    // generate private decrypt exponent
-    public static int generateDecryptExponent(int a, int f){
-        return 0;
-    }
 
 }
