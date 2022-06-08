@@ -3,22 +3,22 @@ import java.util.List;
 import java.util.Random;
 
 public class keys {
-    static int p, q, m;
+    static int p, g, m;
 
     //Generate a public key
     public static void main(String[] args) {
         //Produce two prime numbers
         p = primeNumberGenerator();
-        q = primeNumberGenerator();
-        while (q == p){
-            q = primeNumberGenerator();
+        g = primeNumberGenerator();
+        while (g == p){
+            g = primeNumberGenerator();
         }
 
         // find the modulus
-        m = modulus(p, q);
+        m = modulus(p, g);
 
 
-        System.out.println("two chosen values: " + p + ", " + q );
+        System.out.println("two chosen values: " + p + ", " + g );
         System.out.println("modulus = " + m);
 
     }
