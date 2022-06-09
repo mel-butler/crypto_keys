@@ -3,9 +3,9 @@ import java.util.List;
 import java.util.Random;
 
 public class keys {
-    static int p, g, m;
+    static int p, g;
 
-    //Generate a public key
+
     public static void main(String[] args) {
         //Produce two prime numbers
         p = primeNumberGenerator();
@@ -14,12 +14,9 @@ public class keys {
             g = primeNumberGenerator();
         }
 
-        // find the modulus
-        m = modulus(p, g);
 
 
         System.out.println("two chosen values: " + p + ", " + g );
-        System.out.println("modulus = " + m);
 
     }
 
@@ -49,11 +46,6 @@ public class keys {
         return numInput % divider != 0; // returns true if prime
     }
 
-    // returns the modulus of the arithmetic that will be used for the key, which
-    // is given by their product.
-    public static int modulus(int a, int b){
-        return a*b;
-    }
 
 
 
